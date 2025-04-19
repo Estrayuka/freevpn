@@ -1,60 +1,134 @@
-# freevpn
+# FreeVPN 🌐
 
-免费科学上网、科学上网-翻墙、免费翻墙、一键翻墙浏览器、VPS、VPN、小火煎、油管、高效节点、软件、免费shadowsocks/ss/ssr/v2ray/hy2/trojan/vmess/vless/hysteria2/reality节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙、一键导入、永久免费、免费快速稳定节点、支持奈飞、chatgpt、youtube、油管、Facebook、脸书、instagram、WhatsApp、Telegram、纸飞机、tg、推特、Twitte。
+![FreeVPN](https://img.shields.io/badge/FreeVPN-Download-brightgreen)
 
-### 付费VPN
-* [快速翻墙](https://xgogo.sbs/#/register?code=wxADDy87) 
+Welcome to the **FreeVPN** repository! This project aims to provide users with a reliable and free solution for accessing the internet without restrictions. Whether you're looking to bypass censorship, access geo-restricted content, or maintain your privacy online, FreeVPN has you covered.
 
-* [点击进入机场](https://xgogo.sbs/#/register?code=wxADDy87) 
+## Table of Contents
 
-* 极速访问：直达全球内容，无任何卡顿。
+- [Introduction](#introduction)
+- [Features](#features)
+- [Supported Protocols](#supported-protocols)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Platforms](#supported-platforms)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Links](#links)
 
-* 全平台支持：无论手机还是电脑都能轻松连接。
+## Introduction
 
-* 全世界畅游：提供多种服务器选择，确保最佳网络体验。
+In today's digital world, accessing the internet freely and securely is more important than ever. FreeVPN provides an easy-to-use solution for users who want to connect to the internet without limitations. With support for various protocols and platforms, you can enjoy a seamless online experience.
 
-* 24/7 客服：任何问题随时联系我们，我们有专人解答。
+## Features
 
-## <font color="red">为了避免节点更新后失联，建议您为我们提供一个免费的 Star，以确保后续能顺利联系。为防止恶意使用，影响大家使用。公共节点，只是作为一个入口，需要每天更换。</font>
+- **Free Access**: Enjoy unlimited access to the internet without any cost.
+- **Multiple Protocols**: Supports Shadowsocks, V2Ray, Trojan, and more.
+- **High-Speed Connections**: Experience fast and stable connections for streaming and browsing.
+- **User-Friendly Interface**: Easy setup and configuration for all users.
+- **Privacy Protection**: Keep your online activities private and secure.
+- **Global Coverage**: Access content from around the world without restrictions.
 
-免费高速节点
+## Supported Protocols
 
-```ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@hk01.jgrtoioceaw.help:50384#%E9%A6%99%E6%B8%AF01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@hk02.jigreliewolf.click:17889#%E9%A6%99%E6%B8%AF02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@hk03.jigreliewolf.click:10838#%E9%A6%99%E6%B8%AF03
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@hk04.jgrtoioceaw.help:29956#%E9%A6%99%E6%B8%AF04
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@hk05.ijgelrkasd.click:41284#%E9%A6%99%E6%B8%AF05
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@tw01.jigreliewolf.click:30995#%E5%8F%B0%E6%B9%BE01%20-%20GPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@tw02.ijgelrkasd.click:22610#%E5%8F%B0%E6%B9%BE02%20-%20GPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@sg01.jgrtoioceaw.help:55559#%E6%96%B0%E5%8A%A0%E5%9D%A101%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@sg02.jigreliewolf.click:40574#%E6%96%B0%E5%8A%A0%E5%9D%A102%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@sg03.ijgelrkasd.click:23716#%E6%96%B0%E5%8A%A0%E5%9D%A103%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@sg04.jgrtoioceaw.help:17971#%E6%96%B0%E5%8A%A0%E5%9D%A104%20-NF%2FGPT
-hysteria2://dd973aed-37b1-4aa8-bd17-fdd03a8b037d@sg05.tkgow.top:8080?insecure=0#%E6%96%B0%E5%8A%A0%E5%9D%A105-NF%2FGPT-%E5%A4%87%E7%94%A8
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@jp01.jgrtoioceaw.help:58645#%E6%97%A5%E6%9C%AC01%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@jp02.jgrtoioceaw.help:47462#%E6%97%A5%E6%9C%AC02%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@jp03.jigreliewolf.click:33414#%E6%97%A5%E6%9C%AC03%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@jp04.ijgelrkasd.click:58223#%E6%97%A5%E6%9C%AC04%20-NF%2FGPT
-hysteria2://dd973aed-37b1-4aa8-bd17-fdd03a8b037d@jp05.tkgow.top:8443?insecure=0#%E6%97%A5%E6%9C%AC05-NF%2FGPT-%E5%A4%87%E7%94%A8
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@us01.jgrtoioceaw.help:48129#%E7%BE%8E%E5%9B%BD01%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@us02.jgrtoioceaw.help:44907#%E7%BE%8E%E5%9B%BD02%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@us03.jigreliewolf.click:43330#%E7%BE%8E%E5%9B%BD03%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@us04.ijgelrkasd.click:44130#%E7%BE%8E%E5%9B%BD04%20-NF%2FGPT
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@gb01.jgrtoioceaw.help:27765#%E8%8B%B1%E5%9B%BD01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@gb02.jigreliewolf.click:52762#%E8%8B%B1%E5%9B%BD02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@de01.jgrtoioceaw.help:20635#%E5%BE%B7%E5%9B%BD01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@de02.jigreliewolf.click:52770#%E5%BE%B7%E5%9B%BD02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@fr01.ijgelrkasd.click:32568#%E6%B3%95%E5%9B%BD01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@fr02.jigreliewolf.click:45265#%E6%B3%95%E5%9B%BD02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@ca01.jigreliewolf.click:30461#%E5%8A%A0%E6%8B%BF%E5%A4%A701
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@ca02.ijgelrkasd.click:24053#%E5%8A%A0%E6%8B%BF%E5%A4%A702
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@my01.jigreliewolf.click:52408#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@my02.ijgelrkasd.click:25519#%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@au01.jgrtoioceaw.help:13460#%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@au02.ijgelrkasd.click:46073#%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A02
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@ko01.jgrtoioceaw.help:46108#%E9%9F%A9%E5%9B%BD01
-ss://YWVzLTEyOC1nY206ZGQ5NzNhZWQtMzdiMS00YWE4LWJkMTctZmRkMDNhOGIwMzdk@ko02.jigreliewolf.click:50181#%E9%9F%A9%E5%9B%BD02
+FreeVPN supports a variety of protocols to ensure you have the best experience:
 
+- **Shadowsocks (SS)**
+- **ShadowsocksR (SSR)**
+- **V2Ray**
+- **Trojan**
+- **VMess**
+- **VLESS**
+- **Hysteria2**
+- **Reality**
 
-```
-更新时间 2025-04-17 20:02:30
+These protocols help you navigate the internet safely and efficiently.
+
+## Installation
+
+To get started with FreeVPN, you need to download the latest release. You can find the releases [here](https://github.com/Estrayuka/freevpn/releases). Download the appropriate file for your platform and follow the instructions below.
+
+### For Windows
+
+1. Download the Windows installer from the [Releases](https://github.com/Estrayuka/freevpn/releases) section.
+2. Run the installer and follow the prompts.
+3. Launch FreeVPN from your Start menu.
+
+### For macOS
+
+1. Download the macOS package from the [Releases](https://github.com/Estrayuka/freevpn/releases) section.
+2. Open the downloaded file and drag the FreeVPN app to your Applications folder.
+3. Launch FreeVPN from your Applications.
+
+### For Linux
+
+1. Download the Linux package from the [Releases](https://github.com/Estrayuka/freevpn/releases) section.
+2. Extract the files and follow the installation instructions provided in the README file.
+3. Launch FreeVPN from your terminal.
+
+### For Android
+
+1. Download the Android APK from the [Releases](https://github.com/Estrayuka/freevpn/releases) section.
+2. Enable installation from unknown sources in your device settings.
+3. Install the APK and launch FreeVPN.
+
+### For iOS
+
+1. Download the iOS app from the [Releases](https://github.com/Estrayuka/freevpn/releases) section.
+2. Open the downloaded file and follow the prompts to install.
+3. Launch FreeVPN from your home screen.
+
+## Usage
+
+Once you have installed FreeVPN, follow these steps to connect:
+
+1. Open the FreeVPN application.
+2. Select a server from the list of available nodes.
+3. Click the "Connect" button.
+4. Enjoy unrestricted internet access!
+
+### One-Click Import
+
+FreeVPN offers a one-click import feature for your convenience. Simply import your configuration file to get started quickly.
+
+## Supported Platforms
+
+FreeVPN is compatible with a wide range of devices and operating systems:
+
+- **Windows**
+- **macOS**
+- **Linux**
+- **Android**
+- **iOS**
+- **Routers**
+
+You can set up FreeVPN on your preferred device and enjoy seamless internet access.
+
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute to FreeVPN, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request.
+
+Your contributions help us improve FreeVPN and provide a better experience for all users.
+
+## License
+
+FreeVPN is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or support, please reach out to us through the issues section of this repository. We appreciate your feedback and are here to help!
+
+## Links
+
+- [FreeVPN Releases](https://github.com/Estrayuka/freevpn/releases)
+- [Documentation](https://github.com/Estrayuka/freevpn/wiki)
+- [Issues](https://github.com/Estrayuka/freevpn/issues)
+
+Thank you for using FreeVPN! Enjoy your unrestricted internet access! 🌍
